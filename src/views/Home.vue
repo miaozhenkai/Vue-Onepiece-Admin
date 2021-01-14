@@ -49,7 +49,7 @@ export default {
       });
     }
     function loadData() {
-      request.get('http://localhost:3001/api/wans').then((data: any) => {
+      request.get('http://localhost:3000/wans').then((data: any) => {
         console.log(data, 'ddasd');
         mockData.data = data.result;
       });
