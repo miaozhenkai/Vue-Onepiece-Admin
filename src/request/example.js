@@ -1,5 +1,5 @@
-const request = require('./index');
-// import request from "./index";
+//const request = require('./index');
+import request from "./index";
 
 request.get('http://localhost:3000/wans').then((data) => {
     console.log(data, 'datasssss');
